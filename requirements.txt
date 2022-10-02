@@ -1,0 +1,5 @@
+google-cloud-speech==2.15.1
+google-cloud-storage==2.5.0
+google-cloud-language
+flask
+Jinja2

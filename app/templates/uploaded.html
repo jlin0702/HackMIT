@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block body %} 
+<div class="main">
+    <div id="page1">
+        <h2 class="center">Transcribe Speech to Text</h2>
+        <div class="container center">
+            <form action = "/upload" id="transcribe-form" method="POST" enctype="multipart/form-data">
+                <input type="file" id="file" name="file"><br><br>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+    <div id="page2">
+        <h2 class="center">Analysis</h2>
+        <div class="container center">
+            Transcript: {{ text }}
+        </div>
+        <div class="container center">
+            <span style="color:{{color}}">{{ analysisText }}</span>
+        </div>
+    </div>
+</div> 
+
+{% endblock %}
+
+{% block js %}<script src="{{ url_for('static',filename='js/form.js') }}"></script>{% endblock %}
