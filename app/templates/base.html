@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/main.css') }}">
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+{% block js %} {% endblock %}
+</html>

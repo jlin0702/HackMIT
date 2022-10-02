@@ -1,0 +1,26 @@
+.main {
+    display:flex;
+    justify-content: center;
+    font-size: large;
+}
+
+#page1 {
+    width: 40%;
+    text-align: center;
+}
+
+#page2 {
+    float: left;
+    width: 40%;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    overflow-y: auto;
+    width: 50%;
+    margin: auto;
+    height: 300px;
+}
