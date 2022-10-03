@@ -1,5 +1,3 @@
-# HackMIT
-
 ## How to run
 Make sure you have python3 and pip installed
 
